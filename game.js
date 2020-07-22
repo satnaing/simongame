@@ -78,3 +78,14 @@ $(document).keydown((e) => {
     console.log("Game already Started");
   }
 });
+
+$(".start-btn").click((e) => {
+  if (gameStarted === false) {
+    console.log("Next Seq");
+    setTimeout(() => {
+      nextSequence();
+    }, 500);
+  } else {
+    console.log("Game already Started");
+  }
+});

@@ -1,20 +1,19 @@
 body {
   text-align: center;
-  background-color: #011F3F;
+  background-color: #011f3f;
 }
 
 #level-title {
-  font-family: 'Press Start 2P', cursive;
+  font-family: "Press Start 2P", cursive;
   font-size: 3rem;
-  margin:  5%;
-  color: #FEF2BF;
+  margin: 5%;
+  color: #fef2bf;
 }
 
 .container {
   display: block;
   width: 50%;
   margin: auto;
-
 }
 
 .btn {
@@ -24,6 +23,18 @@ body {
   width: 200px;
   border: 10px solid black;
   border-radius: 20%;
+}
+
+.start-btn {
+  width: 120px;
+  height: 40px;
+  background-color: wheat;
+  border: none;
+  border-radius: 5%;
+}
+
+.start-btn:hover {
+  background-color: teal;
 }
 
 .game-over {
